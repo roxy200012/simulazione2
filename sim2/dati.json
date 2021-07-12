@@ -1,0 +1,60 @@
+{
+  "parchi": [
+    {
+      "id": 1,
+      "name": "Cartaland",
+      "type": "Avventura",
+      "starttime": "09:00",
+      "endtime":"17:00",
+      "place": "Pescheria di Carta"
+    },
+    {
+      "id": 2,
+      "name": "Cartaland",
+      "type": "Avventura",
+      "starttime": "11:00",
+      "endtime":"17:00",
+      "place": "Simone"
+    },
+    {
+      "id": 3,
+      "name": "Mirabollandia",
+      "type": "Acquatico",
+      "starttime": "10:00",
+      "endtime":"17:00",
+      "place": "Cotenna"
+    },
+    {
+      "id": 4,
+      "name": "Fuori di testa",
+      "type": "Alpino",
+      "starttime": "10:00",
+      "endtime":"16:00",
+      "place": "Tonino"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Giorgio",
+      "surname": "Giorgi",
+      "date": "12/07/2021",
+      "vote": "9",
+      "notes": "Divertentissimo.Giornata Fantastica."
+    },
+    {
+      "name": "Rossana",
+      "surname": "grizzo",
+      "date": "2021-07-12",
+      "notes": "Giornata fantastcica in famiglia",
+      "id": 2
+    },
+    {
+      "name": "Rossana",
+      "surname": "grizzo",
+      "date": "2021-07-12",
+      "notes": "Giornata fantastcica in famiglia",
+      "id": 3
+    }
+  ]
+}

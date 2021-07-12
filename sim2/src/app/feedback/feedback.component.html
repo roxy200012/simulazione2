@@ -1,0 +1,31 @@
+<app-homepage-controller></app-homepage-controller>
+<div style="padding-top: 10%; padding-bottom: 3%; ">
+        <div class="container">
+        <form class="form">
+            <h3 style="padding-bottom: 3%; text-align: center;font-size: 30px;font-weight: bold; ">Aggiungi il feedback</h3>
+           <div class="text"> 
+               <label class="col-2">Nome</label>
+            <input  class="row" style="margin-left: 32%;"[(ngModel)]="name" [ngModelOptions]="{standalone:true}" type="text"> 
+           </div>
+           <div class="text">
+               <label class="col-2">Cognome</label>
+            <input class="row" style="margin-left: 32%;" [(ngModel)]="surname" [ngModelOptions]="{standalone:true}" type="text"> 
+           </div>
+           <div class="text">
+               <label class="col-2">Data</label>
+            <input class="row"style="margin-left: 32%; width:250px;" [(ngModel)]="date" [ngModelOptions]="{standalone:true}" type="date"> 
+           </div>
+           <div class="text">
+              <label class="col-2">Voto</label>
+            <input class="row" style="margin-left: 32%; width: 250px;" [(ngModel)]="vote" [ngModelOptions]="{standalone:true}" type="number" value="1" min="1" max="10"> 
+           </div>
+            <div class="text">
+                <label class="col-2">Note</label>
+              <textarea class="row" style="margin-left: 32%;width: 250px;height: 200px;" [(ngModel)]="notes" [ngModelOptions]="{standalone:true}" ></textarea> 
+            </div>
+           <div style="padding-left: 48%;padding-bottom: 3%;">
+               <button class="btn btn-primary" (click)="submit()">Invia</button>
+           </div> 
+        </form>
+    </div>
+    </div>

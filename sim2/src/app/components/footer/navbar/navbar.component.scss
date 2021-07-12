@@ -1,0 +1,41 @@
+nav{
+    position: fixed;
+    width: 100%;
+    top:0;
+    //height: 100px;
+    //margin-bottom: 200px;
+    display: block;
+    z-index: 1000;
+ 
+}
+
+
+
+h6{
+    margin: 20%;
+    padding: 0.625rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 0.625rem;
+    text-align: center;
+}
+
+ul{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+    margin-right: 1.25rem;
+}

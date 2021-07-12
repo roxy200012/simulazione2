@@ -1,0 +1,29 @@
+
+<div style="background-color: white;">
+    <div class="row" style="padding-left: 20%;padding-top: 3%; padding-bottom: 3%;">
+
+     
+        <select class="custom-select col-2" id="orario" [(ngModel)]="time" style="margin-left: 20%;" >
+         
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+          </select>
+        <button class="btn btn-primary col-2" style="margin-left: 3%;" type="submit" (click)="search($event)">Search</button>
+
+       </div> 
+    <div   *ngFor="let data of parchi| filter:time">
+      <h3 style="text-align: center;">{{data.name}}</h3>
+     <div style="text-align: center;">  <h5>{{data.type}}</h5>
+        <h6>{{data.starttime}}-{{data.endtime}}</h6>
+        <h6>{{data.place}}</h6>
+      </div> 
+      <hr>
+    </div>
+</div>
